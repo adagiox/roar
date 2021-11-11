@@ -12,4 +12,4 @@ npx hardhat run scripts/deploy.js --network rinkeby
 ```
 
 Try it live on the Rinkeby testnet! (Note: you need to have Rinkeby eth in Metamask to send a message)
-https://waveportal-starter-project.adagiox.repl.co
+https://roar-app.adagiox.repl.co/
