@@ -1,0 +1,61 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  row-gap: 10px;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+
+.bio {
+  text-align: center;
+  color: white;
+  margin-top: 16px;
+}
+
+.messageBox {
+  padding: 10px 10px 10px 10px;
+}
+
+.roarMessages {
+  background-color: #121212;
+  margin-top: 16px;
+  color: #FFFFFF;
+  padding: 8px;
+  border: 2px solid;
+  border-color: #FFFFFF;
+  text-align: left;
+}
+
+.roarButton {
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 16px;
+  padding: 8px;
+  border: 2px solid;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+  display: inline-block;
+  color: #000000;
+  background-color: #BB86FC;
+  width: 50%;
+  margin: auto;
+}
+
+.roarButton:hover {
+  opacity: 70%;
+}
